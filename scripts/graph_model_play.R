@@ -12,3 +12,8 @@ erGraphParam()
 args(rUGgmm)
 out <- rUGgmm(dRegularGraphParam(p = 4, d = 2))
 str(out)
+summary(out)
+
+class(out)
+out$g
+plot(out)
